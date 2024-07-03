@@ -1,0 +1,12 @@
+#root, .App {
+  height: 100%;
+  font-family: monospace;
+}
+
+.background-img {
+  background-image: url(https://dizme.vercel.app/img/slider/2.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 100%;
+}

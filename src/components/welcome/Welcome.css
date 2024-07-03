@@ -1,0 +1,33 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.top-triangle {
+    position: relative;
+    animation-name: slide-in-top;
+    animation-duration: 3s;
+}
+
+@keyframes slide-in-top {
+    0%   { top: -500px; }
+    70%  { top: 0px; left: 0px; }
+    100% { left: 1000px; }
+}
+
+.bottom-triangle {
+    position: relative;
+    animation-name: slide-in-bottom;
+    animation-duration: 3s;
+}
+
+@keyframes slide-in-bottom {
+    0%   { top: 500px; }
+    70%  { top: 0px; right: 0px; }
+    100% { right: 1000px; }
+}

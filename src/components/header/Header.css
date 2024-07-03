@@ -1,0 +1,70 @@
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.itm {
+    padding-top: 9px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-container a { display: none; }
+    .menu-container .mobile-menu {
+      float: right;
+      display: block;
+      color: white;
+    }
+  }
+
+@keyframes slide-in {
+    0%   { top: -200px; }
+    100% { top: 0px; }
+}
+
+
+.menu-item {
+    font-family: Jost;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+
+.menu-item.active {
+    color: #f75023;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url(src/assets/fonts/Jost/static/Jost-Medium.ttf);
+}
+
+.download-cv {
+    width: 150px;
+    padding: 7px 18px 7px 15px;
+    border-radius: 50px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #f75023;
+    font-family: Jost;
+    font-size: 18px;
+}
+
+.download-cv:hover {
+    background-color:#f75023;
+    border-color: #f75023;
+}

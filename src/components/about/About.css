@@ -1,0 +1,65 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    padding: 15% 0 10% 0;
+}
+
+.developer {
+    margin: 20px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.welcome {
+    margin-left: 20px;    
+}
+
+.counter-container {
+    padding: 0 10px 0 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #4b4f5c;
+    width:fit-content;
+    position: relative;
+    bottom: 89%;
+}
+
+.counter {
+    display: flex;
+    padding-top: 10px;
+    color: #8067f0;
+    font-family: Jost, sans-serif;
+    font-weight: 500;
+}
+
+.bootcamp-grade {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    color:white;
+    font-size: 19px;
+}
+
+.iam {
+    color: #f75023;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Jost, sans-serif;
+}
+
+.description {
+    color: #b9b5c9;
+    font-family: Open Sans, sans-serif;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.hellothere {
+    font-size: 40px;
+    line-height: 1.25;
+    color: white;
+    font-weight: 500;
+    font-family: Jost, sans-serif;
+    margin-bottom: 20px;
+}

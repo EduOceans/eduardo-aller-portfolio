@@ -1,0 +1,165 @@
+.main-content-container {
+   display: flex;
+   margin: 10% 10%;
+   flex-direction: column;
+}
+
+.letter {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.hello {
+    color: #f75023;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.3;
+    font-family: monospace;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 1.3;
+    margin: 0;
+    color: white;
+    margin-bottom: 13px;
+    word-wrap: break-word;
+    font-family: monospace;
+}
+
+.web-developer {
+    color: #1cbe59;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+.madrid {
+    color: #8067f0;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+.uk {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+.about-button {
+    width: 150px;
+    padding: 7px 18px 7px 15px;
+    border-radius: 50px;
+    color: white;
+    background-color: #f75023;
+    border: 2px solid #f75023;
+    font-family: Jost;
+    font-size: 18px;
+}
+
+.about-button:hover {
+    background-color: transparent;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.avatar {
+    position: relative;
+    border-radius: 50%;
+    margin: 0 50px 0 50px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: larger;
+    margin-right: 15px;
+}
+
+.fa-linkedin-in {
+    margin-left: 20px;
+}
+
+.avatar-container {
+    position: relative;
+}
+
+.avatar-icon {
+    height: 60px;
+    border-radius: 8px;
+    animation: float 1s infinite ease-in-out alternate;
+    -webkit-animation: float 3s infinite ease-in-out alternate;
+    animation-delay: .3s;
+}
+
+@keyframes float {
+    100% {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+
+    }
+}
+
+@font-face {
+    font-family: Jost;
+    src: url(src/assets/fonts/Jost/static/Jost-Medium.ttf);
+}
+
+.react-icon {
+    position: relative;
+    left: 10%;
+    bottom: 78%;
+}
+
+.css-icon {
+    position: relative;
+    left: 18%;
+    bottom: 9%;
+}
+
+.javascript-icon {
+    position: relative;
+    left: 65%;
+    bottom: 70%;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    padding-top: 155px;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-item {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.skills-container h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.3;
+    font-family: Jost, sans-serif;
+}

@@ -1,0 +1,59 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.card-container:hover {
+    cursor: pointer;
+}
+  
+.card {
+    transform: translateY(0);
+    transition: 1s;
+}
+  
+.card:hover {
+    transform: translateY(-20px);
+}
+  
+.card-img-top {
+    height: 300px;
+}
+  
+.cards-bottom {
+    margin-top: 10%;
+}
+
+.cards-title {
+    color: #f75023;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.3;
+    font-family: Jost, sans-serif;
+}
+
+.card-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
+}
+
+.my-work {
+    font-size: 40px;
+    line-height: 1.25;
+    color: white;
+    font-weight: 500;
+    font-family: Jost, sans-serif;
+    margin-bottom: 20px;
+}
+
+.bootcamp-work {
+    color: #b9b5c9;
+    font-family: Open Sans, sans-serif;
+    line-height: 30px;
+}
