@@ -9,11 +9,17 @@ function Contact() {
     <div className='form-container'>
         <div className='contact-details'>
             <div className='contact-box'>
-                <img src='src/assets/location-icon.png' className='location-icon' alt='location'></img>
-                Address: 199 New Church Road, Brighton BN3 4ED
+                <p className='cont-title'>Address:</p>
+                <p className='cont'>199 New Church Road, Brighton BN3 4ED</p>
             </div>
-            <div className='contact-box'>Email</div>
-            <div className='contact-box'>Phone number</div>
+            <div className='contact-box'>
+                <p className='cont-title'>Email:</p>
+                <p className='cont'> edu.aller.torralbo@gmail.com</p>
+                </div>
+            <div className='contact-box'>
+                <p className='cont-title'>Phone number:</p>
+                <p className='cont'>+447858011764</p>
+                </div>
         </div>
         <form>      
             <input name="name" type="text" class="feedback-input" placeholder="Name" />   

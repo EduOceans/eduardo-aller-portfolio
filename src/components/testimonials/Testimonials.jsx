@@ -13,29 +13,34 @@ export function Testimonials () {
                 <input type="radio" name="slider" id="slide4" checked></input>
                 <div id="slides">
                     <div id="overflow">
+                    <img src="src/assets/quote.png" className="quote-sign"></img>
                         <div className="inner">
                             <div className="slide slide_1">
                                 <div className="slide-content">
-                                    <h2>Slide 1</h2>
-                                    <p>Content for slide 1</p>
+                                    <p>I wanted to take a moment to acknowledge your outstanding work so far. your dedication to excellence is evident in your work.
+                                    </p>
+                                    <p className="quote-name">JC - Central Grader</p>
                                 </div>
                             </div>
                             <div className="slide slide_2">
                                 <div className="slide-content">
-                                    <h2>Slide 2</h2>
-                                    <p>Content for slide 2</p>
+                                    <p>You have done a fantastic job and should be proud of your work Eduardo! Keep up the awesome job!
+                                    </p>
+                                    <p className="quote-name">Chris Baird - Central Grader</p>
                                 </div>
                             </div>
                             <div className="slide slide_3">
                                 <div className="slide-content">
-                                    <h2>Slide 3</h2>
-                                    <p>Content for slide 3</p>
+                                    <p>I'm truly impressed, Eduardo, by how you've built upon your skills to create something so unique and visually appealing. Your clean coding practices and the deployment of a comprehensive repository are commendable achievements. Keep up the great work and maintain this exceptional momentum!
+                                    </p>
+                                    <p className="quote-name">Kayvon Kazemini - Central Grader</p>
                                 </div>
                             </div>
                             <div className="slide slide_4">
                                 <div className="slide-content">
-                                    <h2>Slide 4</h2>
-                                    <p>Content for slide 4</p>
+                                    <p>I have to say how impressed I was to see you build upon the skills you acquired thus far to build something so beautiful and unique!
+                                    </p>
+                                    <p className="quote-name">JC - Central Grader</p>
                                 </div>
                             </div>
                         </div>

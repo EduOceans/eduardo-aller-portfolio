@@ -15,6 +15,16 @@ form { max-width:420px; margin:50px auto; }
 
 .contact-box {
     display: flex;
+    flex-direction: column;
+}
+
+.cont-title {
+  color: #f75023;
+}
+
+.cont {
+  color: white;
+
 }
 
 .location-icon {
@@ -27,7 +37,6 @@ form { max-width:420px; margin:50px auto; }
 
 .contact-box {
     height: 100px;
-    border:0.5px solid #b9b5c9;
     padding: 20px;
     margin-top: 10%;
 }
