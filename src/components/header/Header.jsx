@@ -1,5 +1,7 @@
 import React from "react";
 import './Header.css';
+import logoImg from '../../assets/logo-no-background-2.png';
+
 import { HashLink } from "react-router-hash-link";
 
 function Header() {
@@ -7,7 +9,7 @@ function Header() {
         <>
         <section className="header-container">
             <div className='logo-container itm'>
-                <img src='src/assets/logo-no-background-2.png'className='logo' alt='logo'></img>
+                <img src={logoImg} className='logo' alt='logo'></img>
             </div>
             <div className="menu-container">
                 <ul className="list">

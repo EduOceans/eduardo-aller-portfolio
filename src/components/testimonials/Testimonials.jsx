@@ -1,4 +1,6 @@
 import "./Testimonials.css";
+import quoteImg from '../../assets/quote.png';
+
 
 export function Testimonials () {
     return (
@@ -13,7 +15,7 @@ export function Testimonials () {
                 <input type="radio" name="slider" id="slide4" checked></input>
                 <div id="slides">
                     <div id="overflow">
-                    <img src="src/assets/quote.png" className="quote-sign"></img>
+                    <img src={quoteImg} className="quote-sign"></img>
                         <div className="inner">
                             <div className="slide slide_1">
                                 <div className="slide-content">

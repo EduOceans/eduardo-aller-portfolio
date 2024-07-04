@@ -1,4 +1,12 @@
 import './MyStack.css';
+import htmlImg from '../../assets/html-icon.png';
+import cssImg from '../../assets/css-icon.png';
+import javascriptImg from '../../assets/javascript-icon.png';
+import reactImg from '../../assets/react-icon.png';
+import jqueryImg from '../../assets/jquery-icon.png';
+import wordpressImg from '../../assets/wordpress-icon.png';
+import technologiesImg from '../../assets/technologies.png';
+
 
 export function MyStack() {
     return (
@@ -9,36 +17,36 @@ export function MyStack() {
                 <div className="tech-list-container">
                     <div className="tech-list">
                         <div className='item-container'>
-                            <img src='src/assets/html-icon.png' className="icon" alt='html'></img>
+                            <img src={htmlImg} className="icon" alt='html'></img>
                             <div className="item">HTML5</div>
                         </div>
                         <div className='item-container'>
-                            <img src='src/assets/css-icon.png' className="icon" alt='css'></img>
+                            <img src={cssImg} className="icon" alt='css'></img>
                             <div className="item">CSS3</div>
                         </div>
                         <div className='item-container'>
-                            <img src='src/assets/javascript-icon.png' className="icon" alt='javascript'></img>
+                            <img src={javascriptImg} className="icon" alt='javascript'></img>
                             <div className="item">Javascript</div>
                         </div>
                     </div>
                     <div className="tech-list">
                         <div className='item-container'>
-                            <img src='src/assets/react-icon.png' className="icon" alt='react'></img>
+                            <img src={reactImg} className="icon" alt='react'></img>
                             <div className="item">React.js</div>
                         </div>
                         <div className='item-container'>
-                            <img src='src/assets/jquery-icon.png' className="icon" alt='jquery'></img>
+                            <img src={jqueryImg} className="icon" alt='jquery'></img>
                             <div className="item">JQuery</div>
                         </div>
                         <div className='item-container'>
-                            <img src='src/assets/wordpress-icon.png' className="icon" alt='wordpress'></img>
+                            <img src={wordpressImg} className="icon" alt='wordpress'></img>
                             <div className="item">Wordpress</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div>
-                <img src="src/assets/technologies.png" className='developer' alt="developer"></img>
+                <img src={technologiesImg} className='developer' alt="developer"></img>
             </div>
         </div>
     )

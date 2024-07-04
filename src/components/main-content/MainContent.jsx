@@ -4,6 +4,17 @@ import Projects from '../projects/Projects';
 import { Testimonials } from '../testimonials/Testimonials';
 import Contact from '../contact/Contact';
 import './MainContent.css';
+import profileImg from '../../assets/profile.png';
+import reactIconImg from '../../assets/react-icon.png';
+import javascriptIconImg from '../../assets/javascript-icon.png';
+import cssIconImg from '../../assets/css-icon.png';
+import strategyDevelopmentImg from '../../assets/strategy-development.png';
+import codingSkillsImg from '../../assets/coding-skills-img.png';
+import excellenceImg from '../../assets/excellence.png';
+
+
+
+
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
@@ -37,23 +48,23 @@ function MainContent() {
                     </Link>
                     </div>
                 <div className='avatar-container'>
-                    <img src='src/assets/profile.png'className='avatar' alt='profile'></img>
-                    <img src='src/assets/react-icon.png'className='react-icon avatar-icon' alt='react-icon'></img>
-                    <img src='src/assets/javascript-icon.png'className='javascript-icon avatar-icon' alt='react-icon'></img>
-                    <img src='src/assets/css-icon.png'className='css-icon avatar-icon' alt='css-icon'></img>
+                    <img src={profileImg} className='avatar' alt='profile'></img>
+                    <img src={reactIconImg} className='react-icon avatar-icon' alt='react-icon'></img>
+                    <img src={javascriptIconImg} className='javascript-icon avatar-icon' alt='react-icon'></img>
+                    <img src={cssIconImg} className='css-icon avatar-icon' alt='css-icon'></img>
                 </div>
             </div>
             <div className='skills-container'>
                 <div className='skill-card' id='about'>
-                    <img src='src/assets/strategy-development.png' className='strategy skills-item' alt='strategy'></img>
+                    <img src={strategyDevelopmentImg} className='strategy skills-item' alt='strategy'></img>
                     <h2>Project Design</h2>
                 </div>
                 <div className='skill-card'>
-                    <img src='src/assets/coding-skills-img.png' className='coding-skills-img skills-item' alt='coding-skills'></img>
+                    <img src={codingSkillsImg} className='coding-skills-img skills-item' alt='coding-skills'></img>
                     <h2>Quality Code</h2>
                 </div>
                 <div className='skill-card'>
-                    <img src='src/assets/excellence.png' className='excellence skills-item' alt='excellence'></img>
+                    <img src={excellenceImg} className='excellence skills-item' alt='excellence'></img>
                     <h2>Excellent Results</h2>
                 </div>
             </div>
