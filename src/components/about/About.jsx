@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from 'react';
 import './About.css';
+import developerImg from '../../assets/developer.png';
 import { useSpring, animated } from 'react-spring';
 
 function Number ({ n }) {
@@ -27,7 +28,7 @@ export default function About() {
     return (
         <div className="about-container">
             <div className="developer-container">
-                <img src="../../assets/developer.png" className='developer' alt="developer"></img>
+                <img src={developerImg} className='developer' alt="developer"></img>
                 <div className='counter-container'>
                     <h1 ref={myRef} className='counter'>
                         <Number n={99.4}/>%
