@@ -18,7 +18,7 @@ function Header() {
                     <HashLink to='#about' className='menu-item link itm'>About</HashLink>
                     <HashLink to='#projects' className='menu-item link itm'>Projects</HashLink>
                     <HashLink smooth to='#contact' className='menu-item link itm'>Contact</HashLink>
-                    <li className='menu-item link'><a href={cvDoc} download className="btn download-cv"> Download CV</a></li>
+                    <li className='menu-item link'><a src={cvDoc} download className="btn download-cv"> Download CV</a></li>
                 </ul>
             </div>
         </section>

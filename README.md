@@ -6,8 +6,6 @@
 
 - Add on click link to projects on project images
 
-- Finish contact boxes with personal info
-
 - Include map on the bottom of the contact form
 
 - Create Footer
