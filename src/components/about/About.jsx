@@ -27,7 +27,7 @@ export default function About() {
     return (
         <div className="about-container">
             <div className="developer-container">
-                <img src="src/assets/developer.png" className='developer' alt="developer"></img>
+                <img src="../../assets/developer.png" className='developer' alt="developer"></img>
                 <div className='counter-container'>
                     <h1 ref={myRef} className='counter'>
                         <Number n={99.4}/>%
