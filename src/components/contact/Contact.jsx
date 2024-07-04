@@ -10,15 +10,15 @@ function Contact() {
         <div className='contact-details'>
             <div className='contact-box'>
                 <p className='cont-title'>Address:</p>
-                <p className='cont'>199 New Church Road, Brighton BN3 4ED</p>
+                <p className='cont'>123 Brighton BN2</p>
             </div>
             <div className='contact-box'>
                 <p className='cont-title'>Email:</p>
-                <p className='cont'> edu.aller.torralbo@gmail.com</p>
+                <p className='cont'> xxx.xxxxx.xxxxxxxx@gmail.com</p>
                 </div>
             <div className='contact-box'>
                 <p className='cont-title'>Phone number:</p>
-                <p className='cont'>+447858011764</p>
+                <p className='cont'>+447858833392</p>
                 </div>
         </div>
         <form>      

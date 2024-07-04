@@ -4,6 +4,8 @@
 
 - Change images for projects
 
+- Deploy cv pdf
+
 - Add on click link to projects on project images
 
 - Include map on the bottom of the contact form
