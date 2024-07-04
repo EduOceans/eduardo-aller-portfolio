@@ -115,7 +115,7 @@
 
 @font-face {
     font-family: Jost;
-    src: url(fonts/Jost/static/Jost-Medium.ttf);
+    src: url(../../assets/fonts/Jost/static/Jost-Medium.ttf);
 }
 
 .react-icon {
