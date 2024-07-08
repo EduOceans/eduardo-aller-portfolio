@@ -23,8 +23,9 @@ html, body {
 }
 
 .inner {
-  background: #f7f7f720;
+  background: #f75023;
   transition: 250ms ease-out;
+  opacity: 0.3;
 }
 
 .cursor.hover {

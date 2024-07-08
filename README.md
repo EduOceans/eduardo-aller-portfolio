@@ -1,12 +1,6 @@
-- Complete cursor effect
-
 - Bootcamp grade animation to work only when visible in the screen
 
-- Change images for projects
-
 - Deploy cv pdf
-
-- Add on click link to projects on project images
 
 - Include map on the bottom of the contact form
 

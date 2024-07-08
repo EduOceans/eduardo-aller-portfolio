@@ -5,6 +5,7 @@ import quizImg from '../../assets/quiz.png';
 import musicImg from '../../assets/music.png';
 import weatherImg from '../../assets/weather.png';
 import passwordImg from '../../assets/password.png';
+import { Link } from 'react-router-dom';
 
 
 function Projects() {
@@ -17,40 +18,52 @@ function Projects() {
                 <div class="row mx-5 justify-content-around">
                     <div class="card-container col-lg-4 col-md-5 col-sm-12">
                         <div class="card">
+                            <Link to="https://suitestay.netlify.app/" target="_blank">
                             <img src={hotelImg} class="card-img-top" alt="hotel"></img>
-                            <div className='card-title'>Suitestay Hotel</div>
+                            <div className='card-title'></div>
+                            </Link>
                         </div>
                     </div>
                     <div class="card-container col-lg-4 col-md-5 col-sm-12">  
                         <div class="card">
+                            <Link to="https://eduoceans.github.io/portfolio/" target="_blank">
                             <img src={portfolioImg} class="card-img-top" alt="portfolio"></img>
-                            <div className='card-title'>Portfolio Template</div>
+                            <div className='card-title'></div>
+                            </Link>
                         </div>
                     </div>
                     <div class="card-container col-lg-4 col-md-5 col-sm-12">
                         <div class="card">
+                            <Link to="https://eduoceans.github.io/code-quiz/" target="_blank">
                             <img src={quizImg} class="card-img-top" alt="quiz-game"></img>
-                            <div className='card-title'>Quiz Game</div>
+                            <div className='card-title'></div>
+                            </Link>
                         </div>
                     </div>
                 </div>
                  <div class="row mx-5 justify-content-around cards-bottom">
                     <div class="card-container col-lg-4 col-md-5 col-sm-12">
                         <div class="card">
+                            <Link to="https://eduoceans.github.io/photo-music/" target="_blank">
                             <img src={musicImg} class="card-img-top" alt="music"></img>
-                            <div className='card-title'>Photo Music</div>
+                            <div className='card-title'></div>
+                            </Link>
                         </div>
                     </div>
                     <div class="card-container col-lg-4 col-md-5 col-sm-12">
                         <div class="card">
+                            <Link to="https://eduoceans.github.io/weather-search/" target="_blank">
                             <img src={weatherImg} class="card-img-top" alt="weather-search"></img>
-                            <div className='card-title'>Weather Search</div>
+                            <div className='card-title'></div>
+                            </Link>
                         </div>
                     </div>
                     <div class="card-container col-lg-4 col-md-5 col-sm-12">
                         <div class="card">
+                            <Link to="https://eduoceans.github.io/password-generator/" target="_blank">
                             <img src={passwordImg} class="card-img-top" alt="password-generator"></img>
-                            <div className='card-title'>Password Generator</div>
+                            <div className='card-title'></div>
+                            </Link>
                         </div>
                     </div>
                 </div>
