@@ -26,7 +26,7 @@ export function Testimonials () {
                             </div>
                             <div className="slide slide_2">
                                 <div className="slide-content">
-                                    <p>You have done a fantastic job and should be proud of your work Eduardo! Keep up the awesome job!
+                                    <p className="quote-txt">You have done a fantastic job and should be proud of your work Eduardo! Keep up the awesome job!
                                     </p>
                                     <p className="quote-name">Chris Baird - Central Grader</p>
                                 </div>

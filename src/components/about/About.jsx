@@ -43,8 +43,11 @@ export default function About() {
                 <div className='iam'>
                     I'm a Web Developer
                 </div>
-                <div className='hellothere'>Hello there!</div>
-                <div className='description'>I’m Eduardo Aller, a passionate web developer transitioning from a career as a chef to the dynamic world of tech. Recently, I completed an intensive Front-End Development Bootcamp with edX, achieving a total score of 99.4%. Through this program, I mastered HTML, CSS, JavaScript, and React, gaining practical experience through hands-on projects and real-world scenarios. My background in culinary arts has honed my attention to detail and creativity, which I now bring to crafting dynamic, responsive websites. Explore my projects and join me on this exciting journey in web development.
+                <div className='hellothere'>
+                    Hello there!
+                </div>
+                <div className='description'>
+                    I’m Eduardo Aller, a passionate web developer transitioning from a career as a chef to the dynamic world of tech. Recently, I completed an intensive Front-End Development Bootcamp with edX, achieving a total score of 99.4%. Through this program, I mastered HTML, CSS, JavaScript, and React, gaining practical experience through hands-on projects and real-world scenarios. My background in culinary arts has honed my attention to detail and creativity, which I now bring to crafting dynamic, responsive websites. Explore my projects and join me on this exciting journey in web development.
                 </div>
             </div>
         </div>

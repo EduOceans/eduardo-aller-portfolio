@@ -15,11 +15,11 @@ function Contact() {
             <div className='contact-box'>
                 <p className='cont-title'>Email:</p>
                 <p className='cont'> xxx.xxxxx.xxxxxxxx@gmail.com</p>
-                </div>
+            </div>
             <div className='contact-box'>
                 <p className='cont-title'>Phone number:</p>
                 <p className='cont'>+447858833392</p>
-                </div>
+            </div>
         </div>
         <form>      
             <input name="name" type="text" className="feedback-input" placeholder="Name" />   
