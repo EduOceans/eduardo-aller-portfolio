@@ -8,7 +8,7 @@ import wordpressImg from '../../assets/wordpress-icon.png';
 import technologiesImg from '../../assets/technologies.png';
 
 
-export function MyStack() {
+export default function MyStack() {
     return (
         <div className="my-stack-container about-container">
             <div>
@@ -55,8 +55,7 @@ export function MyStack() {
                         <div className='item-container'>
                             <img src={wordpressImg} className="icon" alt='wordpress'></img>
                             <div className="item">
-                                Wordpress
-                            </div>
+                                Wordpress</div>
                         </div>
                     </div>
                 </div>

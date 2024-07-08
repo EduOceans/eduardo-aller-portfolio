@@ -2,7 +2,7 @@ import "./Testimonials.css";
 import quoteImg from '../../assets/quote.png';
 
 
-export function Testimonials () {
+export default function Testimonials () {
     return (
         <div className="testimonials-container">
             <div className="iam">Testimonials</div>
