@@ -1,6 +1,36 @@
 import './Contact.css';
+import React from 'react';
+import Swal from 'sweetalert2'
 
 function Contact() {
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+    
+        formData.append("access_key", "e28b6bda-095a-42c0-9b87-4a4723b3efed");
+    
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+    
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json"
+          },
+          body: json
+        }).then((res) => res.json());
+    
+        if (res.success) {
+          Swal.fire({
+            title: "Success",
+            text: "Message sent successfully!",
+            icon: "success"
+          })
+        }
+      };
+
     return (
 <div className="contact-container" id='contact'>
     <div className="iam">Contact Me</div>
@@ -36,10 +66,10 @@ function Contact() {
                 <p className='cont'>+447858833392</p>
             </div>
         </div>
-        <form>      
-            <input name="name" type="text" className="feedback-input" placeholder="Name" />   
-            <input name="email" type="text" className="feedback-input" placeholder="Email" />
-            <textarea name="text" className="feedback-input" placeholder="Comment"></textarea>
+        <form onSubmit={onSubmit}>      
+            <input name="name" type="text" className="feedback-input" placeholder="Name" required/>   
+            <input name="email" type="text" className="feedback-input" placeholder="Email" required/>
+            <textarea name="text" className="feedback-input" placeholder="Comment" required></textarea>
             <input type="submit" value="SUBMIT"/>
         </form>
     </div>
