@@ -26,7 +26,7 @@ export default function About() {
     }, [])
 
     return (
-        <div className="about-container">
+        <div className="about-container fade-in">
             <div className="developer-container">
                 <img src={developerImg} className='developer' alt="developer"></img>
                 <div className='counter-container'>

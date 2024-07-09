@@ -8,6 +8,8 @@
 
 - Create a visit counter
 
-- Add effects (fade in, etc)
+- Fix effects on scroll
 
 - Font color not white in slides??
+
+- Create loaders

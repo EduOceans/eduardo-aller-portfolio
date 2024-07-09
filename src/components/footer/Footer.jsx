@@ -1,7 +1,10 @@
+import './Footer.css';
+
 function Footer() {
     return (
-        <div>
-            Footer
+        <div className="footer-container">
+            <p>Eduardo Aller Torralbo </p>
+            <span>2024</span>
         </div>
     )
 }

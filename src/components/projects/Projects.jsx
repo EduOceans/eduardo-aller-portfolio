@@ -15,7 +15,7 @@ function Projects() {
             <div className='my-work'>Take a look at my Work</div>
             <div className='bootcamp-work'>These are examples of the work I did at the Fronted Development Bootcamp with edX</div>
             <section class="container-fluid my-5" id="work">
-                <div class="row mx-5 justify-content-around">
+                <div class="row mx-5 justify-content-around slide-in-left">
                     <div class="card-container col-lg-4 col-md-5 col-sm-12">
                         <div class="card">
                             <Link to="https://suitestay.netlify.app/" target="_blank">
@@ -41,7 +41,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                 <div class="row mx-5 justify-content-around cards-bottom">
+                 <div class="row mx-5 justify-content-around cards-bottom slide-in-right">
                     <div class="card-container col-lg-4 col-md-5 col-sm-12">
                         <div class="card">
                             <Link to="https://eduoceans.github.io/photo-music/" target="_blank">

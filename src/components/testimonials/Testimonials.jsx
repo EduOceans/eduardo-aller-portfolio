@@ -4,7 +4,7 @@ import quoteImg from '../../assets/quote.png';
 
 export default function Testimonials () {
     return (
-        <div className="testimonials-container">
+        <div className="testimonials-container fade-in">
             <div className="iam">Testimonials</div>
             <div className='my-work'>What My Instructors Say</div>
         

@@ -8,7 +8,7 @@ import { HashLink } from "react-router-hash-link";
 function Header() {
     return (
         <>
-        <section className="header-container">
+        <section className="header-container slide-in-top">
             <div className='logo-container itm'>
                 <img src={logoImg} className='logo' alt='logo'></img>
             </div>

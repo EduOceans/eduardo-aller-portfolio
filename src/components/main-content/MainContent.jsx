@@ -49,7 +49,7 @@ function MainContent() {
                     </Link>
                     </div>
                     <div className='avatar-container'>
-                        <img src={profileImg} className='avatar' alt='profile'></img>
+                        <img src={profileImg} className='avatar fade-in' alt='profile'></img>
                         <img src={reactIconImg} className='react-icon avatar-icon' alt='react-icon'></img>
                         <img src={javascriptIconImg} className='javascript-icon avatar-icon' alt='react-icon'></img>
                         <img src={cssIconImg} className='css-icon avatar-icon' alt='css-icon'></img>

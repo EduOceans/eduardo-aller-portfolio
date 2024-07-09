@@ -61,7 +61,7 @@ export default function MyStack() {
                 </div>
             </div>
             <div>
-                <img src={technologiesImg} className='developer' alt="developer"></img>
+                <img src={technologiesImg} className='developer fade-in' alt="developer"></img>
             </div>
         </div>
     )
