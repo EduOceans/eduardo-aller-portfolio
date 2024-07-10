@@ -45,21 +45,21 @@
     color: #f75023;
     font-size: 20px;
     font-weight: 100;
-    font-family: Jost, sans-serif;
+    font-family: monospace;
 }
 
 .description {
     color: #b9b5c9;
-    font-family: Open Sans, sans-serif;
+    font-family: monospace;
     line-height: 30px;
     text-align: justify;
 }
 
 .hellothere {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1.25;
     color: white;
     font-weight: 500;
-    font-family: Jost, sans-serif;
+    font-family: monospace;
     margin-bottom: 20px;
 }

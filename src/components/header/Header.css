@@ -37,7 +37,7 @@
 
 
 .menu-item {
-    font-family: Jost;
+    font-family: monospace;
     font-size: 18px;
     text-decoration: none;
     color: white;
@@ -54,13 +54,13 @@
 }
 
 .download-cv {
-    width: 150px;
+    width: 157px;
     padding: 7px 18px 7px 15px;
     border-radius: 50px;
     color: white;
     background-color: transparent;
     border: 2px solid #f75023;
-    font-family: Jost;
+    font-family: monospace;
     font-size: 18px;
 }
 
