@@ -48,11 +48,11 @@ function Contact() {
             </div>
             <div className='contact-box'>
                 <p className='cont-title'>Email:</p>
-                <p className='cont'> edu.oceans@gmail.com</p>
+                <p className='cont'> edu.aller.torralbo@gmail.com</p>
             </div>
             <div className='contact-box'>
                 <p className='cont-title'>Phone number:</p>
-                <p className='cont'>+447858833392</p>
+                <p className='cont'>+447858011764</p>
             </div>
         </div>
         <form onSubmit={onSubmit}>      

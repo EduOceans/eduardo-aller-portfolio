@@ -1,8 +1,6 @@
-- Bootcamp grade animation to work only when visible in the screen
+- Bootcamp grade animation to work only when visible in the screen and optimise
 
 - Deploy cv pdf
-
-- Create Footer
 
 - Optimise website for mobile
 
@@ -12,4 +10,4 @@
 
 - Font color not white in slides??
 
-- Create loaders
+- Create loader

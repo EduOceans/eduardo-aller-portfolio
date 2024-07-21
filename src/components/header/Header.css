@@ -44,10 +44,6 @@
     margin-right: 25px;
 }
 
-.menu-item.active {
-    color: #f75023;
-}
-
 @font-face {
     font-family: Jost;
     src: url(src/assets/fonts/Jost/static/Jost-Medium.ttf);

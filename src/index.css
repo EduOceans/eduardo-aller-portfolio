@@ -4,7 +4,6 @@ html, body {
   width: 100%;
   margin: 0;
   background-color: #2b2d33;
-  cursor: none;
 }
 
 
@@ -17,15 +16,9 @@ html, body {
   pointer-events: none;
 }
 
-.outer {
-  border: 1px solid #f7f7f770;
-
-}
-
 .inner {
-  background: #f75023;
+  border: 3px solid white;
   transition: 250ms ease-out;
-  opacity: 0.3;
 }
 
 .cursor.hover {

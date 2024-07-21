@@ -14,7 +14,6 @@ function Header() {
             </div>
             <div className="menu-container">
                 <ul className="list">
-                    <HashLink to='/' className='menu-item active link itm'>Home</HashLink>
                     <HashLink to='#about' className='menu-item link itm'>About</HashLink>
                     <HashLink to='#projects' className='menu-item link itm'>Projects</HashLink>
                     <HashLink smooth to='#contact' className='menu-item link itm'>Contact</HashLink>
